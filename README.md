@@ -15,6 +15,18 @@
 
 </div>
 
+<div align="center">
+
+```bash
+# One-command install — works with Claude Code, OpenCode, Cursor, and more
+npx bioskill install
+```
+
+[![npm](https://img.shields.io/npm/v/bioskill?style=flat-square&color=cb0000&label=npm)](https://www.npmjs.com/package/bioskill)
+[![npm downloads](https://img.shields.io/npm/dm/bioskill?style=flat-square&color=cb0000)](https://www.npmjs.com/package/bioskill)
+
+</div>
+
 <br/>
 
 # Awesome Bio Agent Skills
