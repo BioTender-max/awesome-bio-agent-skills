@@ -18,8 +18,12 @@
 <div align="center">
 
 ```bash
-# One-command install — works with Claude Code, OpenCode, Cursor, and more
+# One-time use (no install required)
 npx bioskill install
+
+# Or install globally for repeated use
+npm install -g bioskill
+bioskill install
 ```
 
 [![npm](https://img.shields.io/npm/v/bioskill?style=flat-square&color=cb0000&label=npm)](https://www.npmjs.com/package/bioskill)
