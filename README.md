@@ -11,6 +11,8 @@
 [![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
 [![Sources](https://img.shields.io/badge/sources-20_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=f59e0b)](https://github.com/BioTender-max/awesome-bio-agent-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=8b5cf6)](https://github.com/BioTender-max/awesome-bio-agent-skills/network/members)
 [![Lint](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml)
 
 </div>
@@ -797,3 +799,16 @@ cp -r awesome-bio-agent-skills/skills/* /path/to/your/agent/skills/
 ```
 
 A machine-readable index of all 1,676 skills is available in [`bioskill_index_v3.csv`](bioskill_index_v3.csv).
+
+
+---
+
+## Star History
+
+<div align="center">
+  <a href="https://star-history.com/#BioTender-max/awesome-bio-agent-skills&Date">
+    <img src="https://api.star-history.com/svg?repos=BioTender-max/awesome-bio-agent-skills&type=Date" alt="Star History Chart" width="600"/>
+  </a>
+</div>
+
+<p align="center"><em>If this collection is useful to you, please consider giving it a ⭐ — it helps others discover it.</em></p>
