@@ -43,6 +43,18 @@ bioskill install
 
 ---
 
+## About BioTender
+
+This project is created and maintained by [BioTender](https://www.biotender.online/).
+
+BioTender is a Chinese AI-for-Biology intelligence and media platform covering protein design, structure prediction, virtual cells, AI drug discovery, biological foundation models, scientific agents, AI4Bio startups, and frontier research.
+
+- Website: https://www.biotender.online/
+- About: https://www.biotender.online/about/
+- Scholar Program: https://www.biotender.online/scholar-program.html
+
+---
+
 ## Contents
 
 - [Genomics](#genomics)
