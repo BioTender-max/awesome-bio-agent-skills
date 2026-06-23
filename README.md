@@ -39,6 +39,8 @@ bioskill install
 
 > A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 
+Now tracking NVIDIA BioNeMo Agent Toolkit and the emerging ecosystem of agent-callable tools for life sciences.
+
 1,693 deduplicated skills from 21 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
