@@ -7,9 +7,9 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/skills-1%2C676-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
+[![Skills](https://img.shields.io/badge/skills-1%2C693-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
 [![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
-[![Sources](https://img.shields.io/badge/sources-20_repos-34d399?style=flat-square)](#sources)
+[![Sources](https://img.shields.io/badge/sources-21_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=f59e0b)](https://github.com/BioTender-max/awesome-bio-agent-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=8b5cf6)](https://github.com/BioTender-max/awesome-bio-agent-skills/network/members)
@@ -39,7 +39,7 @@ bioskill install
 
 > A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 
-1,676 deduplicated skills from 20 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
+1,693 deduplicated skills from 21 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
 
@@ -72,6 +72,7 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 - [Pathway Analysis](#pathway-analysis)
 - [Metagenomics](#metagenomics)
 - [Protein Design](#protein-design)
+- [NVIDIA BioNeMo Skills](#nvidia-bionemo-skills)
 - [Sources](#sources)
 
 ---
@@ -764,6 +765,39 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 | [generate_scientific_method_section](skills/labclaw/generate_scientific_method_section/) | labclaw | Automated SCI-standard Methods section generator from experiment execution records. Parses LabOS skill call chains, structured JSON logs (extract_e... |
 
 ---
+## NVIDIA BioNeMo Skills
+
+> 17 skills — Official NVIDIA BioNeMo NIM API skills for protein structure prediction, molecular generation, and genomics.
+
+<details>
+<summary>View all 17 skills</summary>
+
+| Skill | Type | Description |
+|-------|------|-------------|
+| [boltz2-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/boltz2-nim) | NIM API | Boltz-2 biomolecular structure prediction via NVIDIA NIM API. |
+| [diffdock-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/diffdock-nim) | NIM API | DiffDock molecular docking via NVIDIA NIM API. |
+| [evo2-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/evo2-nim) | NIM API | Evo2 genomic foundation model inference via NVIDIA NIM API. |
+| [genmol-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/genmol-nim) | NIM API | GenMol molecule generation via NVIDIA NIM API. |
+| [molmim-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/molmim-nim) | NIM API | MolMIM controlled molecular generation via NVIDIA NIM API. |
+| [msa-search-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/msa-search-nim) | NIM API | MSA search for protein structure prediction via NVIDIA NIM API. |
+| [openfold2-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/openfold2-nim) | NIM API | OpenFold2 protein structure prediction via NVIDIA NIM API. |
+| [openfold3-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/openfold3-nim) | NIM API | OpenFold3 biomolecular complex structure prediction via NVIDIA NIM API. |
+| [proteinmpnn-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/proteinmpnn-nim) | NIM API | ProteinMPNN inverse folding / sequence design via NVIDIA NIM API. |
+| [rfdiffusion-nim](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/nim-skills/rfdiffusion-nim) | NIM API | RFdiffusion protein backbone design via NVIDIA NIM API. |
+| [proteina-complexa](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/open-models-skills/proteina-complexa) | Open Model | NVIDIA Proteina protein complex structure prediction. |
+| [kermt](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/open-models-skills/kermt) | Open Model | NVIDIA KERMT kernel estimation for molecular simulation. |
+| [cuEquivariance](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/library-skills/cuEquivariance) | Library | GPU-accelerated equivariant neural network operations. |
+| [genomics-workflow-acceleration](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/library-skills/genomics-workflow-acceleration) | Library | Parabricks-powered GPU genomics pipeline acceleration. |
+| [nvMolKit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/library-skills/nvMolKit) | Library | NVIDIA molecular toolkit for cheminformatics and property prediction. |
+| [parabricks](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/library-skills/parabricks) | Library | NVIDIA Parabricks GPU-accelerated GATK4 variant calling. |
+| [generative-protein-binder-design](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit/tree/main/workflows/generative_protein_binder_design) | Workflow | Multi-step binder design: RFdiffusion → ProteinMPNN → OpenFold3 via NIM APIs. |
+
+</details>
+
+Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) · License: Apache-2.0 (code) / CC-BY-4.0 (skills)
+
+---
+
 ## Sources
 
 This collection aggregates and deduplicates skills from the following open-source repositories:
@@ -789,6 +823,7 @@ This collection aggregates and deduplicates skills from the following open-sourc
 | [xjtulyc/MedgeClaw](https://github.com/xjtulyc/MedgeClaw) | 7 | Biomedical research skills with real-time dashboard, RStudio, and JupyterLab integration. |
 | [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
+| [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | 17 | Official NVIDIA BioNeMo NIM skills: Boltz-2, DiffDock, OpenFold2/3, RFdiffusion, ProteinMPNN, GenMol, Evo2, MolMIM, Parabricks. |
 | [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 1 | Self-referential hub skill that indexes this collection (browse & install entry point). |
 
 ## Skill Format
@@ -810,7 +845,7 @@ git clone https://github.com/BioTender-max/awesome-bio-agent-skills.git
 cp -r awesome-bio-agent-skills/skills/* /path/to/your/agent/skills/
 ```
 
-A machine-readable index of all 1,676 skills is available in [`bioskill_index_v3.csv`](bioskill_index_v3.csv).
+A machine-readable index of all 1,693 skills is available in [`bioskill_index_v3.csv`](bioskill_index_v3.csv).
 
 
 ---
