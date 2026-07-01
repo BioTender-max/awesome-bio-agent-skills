@@ -861,3 +861,7 @@ A machine-readable index of all 1,693 skills is available in [`bioskill_index_v3
 </div>
 
 <p align="center"><em>If this collection is useful to you, please consider giving it a ⭐ — it helps others discover it.</em></p>
+
+
+## Related Resources
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
