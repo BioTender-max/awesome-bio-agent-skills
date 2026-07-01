@@ -841,7 +841,7 @@ Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo
 
 </details>
 
-Source: [JimLiu/science-skills](https://github.com/JimLiu/science-skills) · License: Apache-2.0 · *Reverse-engineered from Claude Science*
+Source: [JimLiu/science-skills](https://github.com/JimLiu/science-skills) · License: Apache-2.0 · *Reverse-engineered from Claude Science* · Synced: [`fb309c3`](https://github.com/JimLiu/science-skills/commit/fb309c3) (2026-07-01)
 
 ---
 ## Sources
