@@ -9,7 +9,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Skills](https://img.shields.io/badge/skills-1%2C693-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
 [![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
-[![Sources](https://img.shields.io/badge/sources-21_repos-34d399?style=flat-square)](#sources)
+[![Sources](https://img.shields.io/badge/sources-22_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=f59e0b)](https://github.com/BioTender-max/awesome-bio-agent-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=8b5cf6)](https://github.com/BioTender-max/awesome-bio-agent-skills/network/members)
@@ -800,6 +800,50 @@ Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo
 
 ---
 
+## Claude Science Skills
+
+> 29 skills — Official Claude Science built-in skills for biomolecular modeling, genomics, single-cell analysis, literature synthesis, and scientific compute workflows.
+
+<details>
+<summary>View all 29 skills</summary>
+
+| Skill | Type | Description |
+|-------|------|-------------|
+| [alphafold2](https://github.com/anthropics/science-skills/tree/main/skills/alphafold2) | Structure | AlphaFold2 monomer/multimer structure prediction via ColabFold runner. |
+| [boltz](https://github.com/anthropics/science-skills/tree/main/skills/boltz) | Structure | Boltz-2 structure prediction for protein, nucleic-acid, and small-molecule complexes. |
+| [chai1](https://github.com/anthropics/science-skills/tree/main/skills/chai1) | Structure | Chai-1 foundation model structure prediction for biomolecular complexes. |
+| [esmfold2](https://github.com/anthropics/science-skills/tree/main/skills/esmfold2) | Structure | ESMFold2/ESMFold2-Fast all-atom co-folding with optional MSA. |
+| [openfold3](https://github.com/anthropics/science-skills/tree/main/skills/openfold3) | Structure | OpenFold3 open-weights PyTorch reproduction of AlphaFold3. |
+| [fair-esm2](https://github.com/anthropics/science-skills/tree/main/skills/fair-esm2) | Embeddings | Meta AI ESM-2 per-residue and per-sequence protein embeddings. |
+| [diffdock](https://github.com/anthropics/science-skills/tree/main/skills/diffdock) | Docking | DiffDock-L blind diffusion-based small-molecule pose prediction. |
+| [ligandmpnn](https://github.com/anthropics/science-skills/tree/main/skills/ligandmpnn) | Design | LigandMPNN inverse folding with ligand, nucleic-acid, and metal context. |
+| [proteinmpnn](https://github.com/anthropics/science-skills/tree/main/skills/proteinmpnn) | Design | ProteinMPNN inverse folding from PDB backbone to amino-acid sequences. |
+| [solublempnn](https://github.com/anthropics/science-skills/tree/main/skills/solublempnn) | Design | SolubleMPNN solubility-biased inverse folding for expression-friendly designs. |
+| [evo2](https://github.com/anthropics/science-skills/tree/main/skills/evo2) | Genomics | Evo 2 long-context genomic foundation model for scoring, embedding, and generation. |
+| [borzoi](https://github.com/anthropics/science-skills/tree/main/skills/borzoi) | Genomics | Borzoi genome-wide functional track prediction (RNA-seq, CAGE, DNase, ChIP) from DNA. |
+| [scgpt](https://github.com/anthropics/science-skills/tree/main/skills/scgpt) | Single-Cell | scGPT single-cell expression embedding and annotation with a foundation model. |
+| [scvi-tools](https://github.com/anthropics/science-skills/tree/main/skills/scvi-tools) | Single-Cell | scVI/scANVI probabilistic single-cell RNA-seq: batch correction, annotation, integration. |
+| [literature-review](https://github.com/anthropics/science-skills/tree/main/skills/literature-review) | Analysis | Scientific literature search, verification, and synthesis from DOI or query. |
+| [indication-dossier](https://github.com/anthropics/science-skills/tree/main/skills/indication-dossier) | Analysis | Therapeutic indication dossier: epidemiology, disease biology, regulatory, trials. |
+| [paper-narrative](https://github.com/anthropics/science-skills/tree/main/skills/paper-narrative) | Analysis | Judge and reshape the story a paper's figures tell; narrative coherence analysis. |
+| [pdf-explore](https://github.com/anthropics/science-skills/tree/main/skills/pdf-explore) | Analysis | Deep PDF reading with annotation, cross-referencing, and structured extraction. |
+| [figure-composer](https://github.com/anthropics/science-skills/tree/main/skills/figure-composer) | Visualization | Compose publication-grade multi-panel figures from data references and claims. |
+| [figure-style](https://github.com/anthropics/science-skills/tree/main/skills/figure-style) | Visualization | Publication figure correctness and legibility rules; applies to any plot output. |
+| [compute-env-setup](https://github.com/anthropics/science-skills/tree/main/skills/compute-env-setup) | Compute | Set up and configure remote compute environments for Claude Science jobs. |
+| [remote-compute-modal](https://github.com/anthropics/science-skills/tree/main/skills/remote-compute-modal) | Compute | Run GPU jobs on the user's Modal account via BYOC provider. |
+| [remote-compute-ssh](https://github.com/anthropics/science-skills/tree/main/skills/remote-compute-ssh) | Compute | Submit→wait→harvest workflow for SSH/SLURM HPC hosts. |
+| [managed-model-endpoints](https://github.com/anthropics/science-skills/tree/main/skills/managed-model-endpoints) | Compute | Register and manage local model server containers as named endpoints. |
+| [using-model-endpoint](https://github.com/anthropics/science-skills/tree/main/skills/using-model-endpoint) | Compute | Call registered model endpoints over their native HTTP API from inference kernels. |
+| [customize](https://github.com/anthropics/science-skills/tree/main/skills/customize) | Meta | Create and configure custom agent profiles; author new skills via the repl tool. |
+| [skill-creator](https://github.com/anthropics/science-skills/tree/main/skills/skill-creator) | Meta | Create, modify, benchmark, and improve skills with eval pipeline and scoring. |
+| [self-awareness](https://github.com/anthropics/science-skills/tree/main/skills/self-awareness) | Meta | Claude Science session database schema and SDK introspection surface. |
+| [product-self-knowledge](https://github.com/anthropics/science-skills/tree/main/skills/product-self-knowledge) | Meta | Authoritative Claude Science factual self-knowledge; load before answering product questions. |
+
+</details>
+
+Source: [anthropics/science-skills](https://github.com/anthropics/science-skills) · License: Apache-2.0
+
+---
 ## Sources
 
 This collection aggregates and deduplicates skills from the following open-source repositories:
@@ -826,6 +870,7 @@ This collection aggregates and deduplicates skills from the following open-sourc
 | [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
 | [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | 17 | Official NVIDIA BioNeMo NIM skills: Boltz-2, DiffDock, OpenFold2/3, RFdiffusion, ProteinMPNN, GenMol, Evo2, MolMIM, Parabricks. |
+| [anthropics/science-skills](https://github.com/anthropics/science-skills) | 29 | Official Claude Science built-in skills: structure prediction, design, genomics, single-cell, literature, and compute. |
 | [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 1 | Self-referential hub skill that indexes this collection (browse & install entry point). |
 
 ## Skill Format
