@@ -802,7 +802,7 @@ Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo
 
 ## Claude Science Skills
 
-> 29 skills — Official Claude Science built-in skills for biomolecular modeling, genomics, single-cell analysis, literature synthesis, and scientific compute workflows.
+> 29 skills — Reverse-engineered Claude Science built-in skills covering biomolecular modeling, genomics, single-cell analysis, literature synthesis, and scientific compute workflows.
 
 <details>
 <summary>View all 29 skills</summary>
@@ -841,7 +841,7 @@ Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo
 
 </details>
 
-Source: [JimLiu/science-skills](https://github.com/JimLiu/science-skills) · License: Apache-2.0
+Source: [JimLiu/science-skills](https://github.com/JimLiu/science-skills) · License: Apache-2.0 · *Reverse-engineered from Claude Science*
 
 ---
 ## Sources
@@ -870,7 +870,7 @@ This collection aggregates and deduplicates skills from the following open-sourc
 | [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
 | [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | 17 | Official NVIDIA BioNeMo NIM skills: Boltz-2, DiffDock, OpenFold2/3, RFdiffusion, ProteinMPNN, GenMol, Evo2, MolMIM, Parabricks. |
-| [JimLiu/science-skills](https://github.com/JimLiu/science-skills) | 29 | Official Claude Science built-in skills: structure prediction, design, genomics, single-cell, literature, and compute. |
+| [JimLiu/science-skills](https://github.com/JimLiu/science-skills) | 29 | Reverse-engineered Claude Science built-in skills: structure prediction, design, genomics, single-cell, literature, and compute. |
 | [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 1 | Self-referential hub skill that indexes this collection (browse & install entry point). |
 
 ## Skill Format
