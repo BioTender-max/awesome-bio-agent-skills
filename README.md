@@ -7,8 +7,8 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/skills-1%2C693-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
-[![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
+[![Skills](https://img.shields.io/badge/skills-1%2C722-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
+[![Categories](https://img.shields.io/badge/categories-16-818cf8?style=flat-square)](#contents)
 [![Sources](https://img.shields.io/badge/sources-22_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/BioTender-max/awesome-bio-agent-skills?style=flat-square&color=f59e0b)](https://github.com/BioTender-max/awesome-bio-agent-skills/stargazers)
@@ -39,9 +39,9 @@ bioskill install
 
 > A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 
-Now tracking NVIDIA BioNeMo Agent Toolkit and the emerging ecosystem of agent-callable tools for life sciences.
+Now tracking NVIDIA BioNeMo Agent Toolkit, Claude Science built-in skills, and the emerging ecosystem of agent-callable tools for life sciences.
 
-1,693 deduplicated skills from 21 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
+1,722 deduplicated skills from 22 open-source repositories, organized into 16 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
 
@@ -75,6 +75,7 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 - [Metagenomics](#metagenomics)
 - [Protein Design](#protein-design)
 - [NVIDIA BioNeMo Skills](#nvidia-bionemo-skills)
+- [Claude Science Skills](#claude-science-skills)
 - [Sources](#sources)
 
 ---
