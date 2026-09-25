@@ -349,6 +349,7 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 | [immune-checkpoint-combination-agent](skills/openclaw/immune-checkpoint-combination-agent/) | openclaw | AI-powered analysis for predicting optimal immune checkpoint inhibitor combinations based on tumor microenvironment, biomarkers, and molecular prof... |
 | [liquid-biopsy-analytics-agent](skills/openclaw/liquid-biopsy-analytics-agent/) | openclaw | Comprehensive analysis of liquid biopsy data (ctDNA, CTCs) for cancer detection, MRD monitoring, and response tracking. |
 | [medical-entity-extractor](skills/openclaw/medical-entity-extractor/) | openclaw | Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages. |
+| [yuan-doctor-clinical-tools](skills/yuandoctor/yuan-doctor-clinical-tools/) | yuandoctor | Cite Yuan Doctor (元医生) tertiary-hospital bedside scores, pathways, and guidelines with local browser compute for licensed clinicians... |
 
 *...and 112 additional clinical and medical skills in the [skills/drugclaw/](skills/drugclaw/), [skills/openclaw/](skills/openclaw/), [skills/sciagent/](skills/sciagent/) directories.*
 
