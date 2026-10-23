@@ -41,7 +41,7 @@ bioskill install
 
 Now tracking NVIDIA BioNeMo Agent Toolkit, Claude Science built-in skills, and the emerging ecosystem of agent-callable tools for life sciences.
 
-1,722 deduplicated skills from 22 open-source repositories, organized into 16 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
+1,736 deduplicated skills from 23 open-source repositories, organized into 16 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
 
@@ -76,6 +76,7 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 - [Protein Design](#protein-design)
 - [NVIDIA BioNeMo Skills](#nvidia-bionemo-skills)
 - [Claude Science Skills](#claude-science-skills)
+- [BioDSH Skills](#biodsh-skills)
 - [Sources](#sources)
 
 ---
@@ -844,6 +845,34 @@ Source: [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo
 
 Source: [JimLiu/science-skills](https://github.com/JimLiu/science-skills) · License: Apache-2.0 · *Reverse-engineered from Claude Science* · Synced: [`fb309c3`](https://github.com/JimLiu/science-skills/commit/fb309c3) (2026-07-01)
 
+## BioDSH Skills
+
+> 14 skills — Single-cell RNA-seq analysis, bulk RNA-seq differential expression, survival, regression and ANOVA statistics checked against R, docking, molecular dynamics, and reproducible workflows.
+
+<details>
+<summary>View all 14 skills</summary>
+
+| Skill | Type | Description |
+|-------|------|-------------|
+| [scrna-inspect-qc](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-inspect-qc) | Single-Cell | Read-only inspection and quality-control evidence for an AnnData h5ad file. |
+| [scrna-preprocess-cluster](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-preprocess-cluster) | Single-Cell | State-aware normalization and deterministic Scanpy clustering with machine-readable provenance. |
+| [scrna-cellstate-annotation](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-cellstate-annotation) | Single-Cell | Evidence-backed immune cell class and T-cell state annotation without using outcome labels. |
+| [scrna-treatment-response](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-treatment-response) | Single-Cell | Immune composition comparison between response groups with patient-level aggregation and longitudinal-label safeguards. |
+| [scrna-virtual-knockout](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-virtual-knockout) | Single-Cell | scTenifoldKnk-style in-silico single-gene knockout on a gene regulatory network. |
+| [scrna-repro-audit](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/scrna-repro-audit) | Single-Cell | Read-only reproducibility audit of a run bundle via input, command and output hashes. |
+| [bulk-rnaseq-limma-voom](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/bulk-rnaseq-limma-voom) | Transcriptomics | limma-voom with edgeR TMM in Python, validated against R limma and edgeR. |
+| [survival-km-cox](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/survival-km-cox) | Statistics | Kaplan–Meier, log-rank and Breslow/Efron Cox regression, validated against R survival. |
+| [regression-robust-se](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/regression-robust-se) | Statistics | OLS/WLS/GLM with HC0–HC3 and cluster-robust standard errors, validated against R sandwich. |
+| [anova-designs](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/anova-designs) | Statistics | Type I/II/III ANOVA, repeated measures, multi-stratum designs and estimated marginal means, validated against R car, nlme and emmeans. |
+| [data-format-bridge](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/data-format-bridge) | Clinical | Convert analysis tables into SPSS, Stata, R, GraphPad Prism and Excel formats. |
+| [drug-docking](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/drug-docking) | Drug Discovery | AutoDock Vina virtual screening of SMILES or SDF ligands against a receptor pocket. |
+| [md-simulation](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/md-simulation) | Structure | Short OpenMM molecular dynamics run of a protein or complex with RMSD stability report. |
+| [pipeline-builder](https://github.com/sagirimo/BioDSH/tree/main/biodsh-core/skills/pipeline-builder) | Workflow | Turn a finished analysis, script, notebook or methods text into a re-runnable workflow. |
+
+</details>
+
+Source: [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) · License: MIT
+
 ---
 ## Sources
 
@@ -872,6 +901,7 @@ This collection aggregates and deduplicates skills from the following open-sourc
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
 | [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | 17 | Official NVIDIA BioNeMo NIM skills: Boltz-2, DiffDock, OpenFold2/3, RFdiffusion, ProteinMPNN, GenMol, Evo2, MolMIM, Parabricks. |
 | [JimLiu/science-skills](https://github.com/JimLiu/science-skills) | 29 | Reverse-engineered Claude Science built-in skills: structure prediction, design, genomics, single-cell, literature, and compute. |
+| [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) | 14 | Bioinformatics agent skills: single-cell RNA-seq, limma-voom, survival, robust-SE regression and ANOVA validated against R, docking, molecular dynamics. |
 | [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 1 | Self-referential hub skill that indexes this collection (browse & install entry point). |
 
 ## Skill Format
