@@ -129,6 +129,7 @@ BioTender is a Chinese AI-for-Biology intelligence and media platform covering p
 | [bio-clinical-databases-acmg-classification](skills/bioskills/acmg-classification/) | bioskills | Applies ACMG/AMP 2015 framework with ClinGen SVI specifications, Tavtigian 2018/2020 Bayesian point system, Abou Tayoun 2018 PVS1 decision tree, Pe... |
 | [bio-clinical-databases-clinvar-lookup](skills/bioskills/clinvar-lookup/) | bioskills | Queries ClinVar for variant pathogenicity classifications, ClinGen VCEP curations, and somatic-vs-germline interpretations via REST API, weekly VCF... |
 | [bio-clinical-databases-dbsnp-queries](skills/bioskills/dbsnp-queries/) | bioskills | Resolves rsIDs, navigates RsMergeArch/SNPHistory merge chains, and converts between rsID, SPDI, HGVS, and VCF representations using the dbSNP Build... |
+| [CrakSEO/skills](https://github.com/CrakSEO/skills) | Connect Claude/Cursor/Codex to CrakSEO remote MCP servers for keyword research, SERP, backlinks, rank tracking, site audit, local SEO, AI visibility, Search Console and URL indexing | Claude Code, Cursor, Codex | MIT |
 
 *...and 486 additional genomics skills in the [skills/bioskills/](skills/bioskills/), [skills/openclaw/](skills/openclaw/), [skills/sciagent/](skills/sciagent/) directories.*
 
